@@ -1,0 +1,118 @@
+.space {
+
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+
+.container {
+
+
+    display:flex;
+    height: 100vh;
+    width: 75vw;
+
+
+
+}
+
+
+.left-side {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(95, 126, 219);
+    align-items: center;
+    width: 300px;
+    
+
+}
+
+
+.dashboard {
+
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+
+.top-heading {
+
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    height: 15%;
+    width: 100%;
+   
+}
+
+
+
+.greeting {
+
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top: 45%;
+    left: 3%;
+
+
+}
+
+
+.buttons {
+
+
+    position: relative;
+    left: 40%;
+    top: 62%;
+}
+
+
+.top-heading button {
+
+    background-color: rgb(95, 126, 219);
+    padding: 12px 45px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+#welcome {
+
+    font-size: 25px;
+
+}
+
+#name {
+
+    font-size: 40px;
+
+
+}
+
+.domain {
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    left: 33%;
+    
+
+
+}
