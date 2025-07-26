@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    right: 50%;
+    right: 55%;
+    top: 12%;
 
 
 }
@@ -13,10 +14,11 @@
 .actual-grid {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill,100px);
-    grid-template-rows: repeat(auto-fill,100px);
-    row-gap: 20px;
-    column-gap: 20px;
+    grid-template-columns: repeat(2,400px);
+    grid-template-rows: repeat(4,250px);
+    row-gap: 15px;
+    column-gap: 15px;
+   
 
 
 
@@ -26,5 +28,23 @@
 .actual-grid div {
 
 
-    border: 1px solid black;
+    border: 4px solid rgb(95, 126, 219);
+    font-weight: bold;
+    font-style: italic;
+
+    
+}
+
+
+#my_projects {
+
+
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    position: relative;
+    bottom: 580px;
+    left: 6%;
+    
+
 }
